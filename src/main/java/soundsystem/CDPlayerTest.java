@@ -18,9 +18,7 @@ public class CDPlayerTest {
   @Autowired
   private CompactDisc cd;
 
-  // when having more than one MediaPlayer in CDPlayerConfig.class, choose by @Qualifier
   @Autowired
-  @Qualifier("anotherCDPlayer")
   private MediaPlayer player;
 
 
